@@ -1,0 +1,56 @@
+/* DEVS: Add a class to the side nav of open to have it show open by default (and to see and edit the nav in the editor). Any element on the screen with a class of "toggle-side-nav" can be clicked to open and close the side nav. */
+
+/* Change the settings in the below blocks for your specific needs */
+
+/* Settings for the actual side bar */
+
+.side-nav {
+  background-color: #000;
+  padding-top: 16px;
+}
+
+/* Settings for the links in the side nav */
+
+.side-nav a {
+  color: #fff;
+}
+
+/* Settings for the active, focused, hovered-over links */
+
+.side-nav .nav-pills > li.active > a, .side-nav .nav-pills > li.active > a:focus, .side-nav .nav-pills > li.active > a:hover {
+  background-color: #009900;
+  border-radius: 0;
+}
+
+/* Width of the Side Nav itself (when open); duplicate this block and add media queries as needed to get different widths per device */
+
+.side-nav.open {
+  width: 200px;
+}
+
+/* *************************************************** */
+
+/* I advise you don't change the settings below this */
+
+.side-nav {
+  position: fixed;
+  width: 0;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.side-nav.left {
+  left: 0;
+}
+
+.side-nav.right {
+  right: 0;
+}
+
+.side-nav a {
+  white-space: nowrap;
+}
+

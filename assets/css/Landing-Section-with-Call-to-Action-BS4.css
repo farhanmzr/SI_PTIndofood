@@ -1,0 +1,391 @@
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6,
+p,
+.navbar,
+.brand,
+.btn-simple,
+a,
+.td-name,
+td {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Helvetica Neue", "Open Sans", Arial, sans-serif;
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4 {
+  font-weight: 400;
+  margin: 30px 0 15px;
+}
+
+h1,
+.h1 {
+  font-size: 52px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: #2CA8FF;
+}
+
+a:hover,
+a:focus {
+  color: #109CFF;
+  text-decoration: none;
+}
+
+.fa {
+  width: 18px;
+  text-align: center;
+}
+
+.btn {
+  border-width: 2px;
+  background-color: transparent;
+  font-weight: 400;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  padding: 8px 16px;
+  border-color: #888888;
+  color: #888888;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus,
+.btn:active:hover,
+.btn.active:focus,
+.btn.active:hover,
+.open>.btn.dropdown-toggle,
+.open>.btn.dropdown-toggle:focus,
+.open>.btn.dropdown-toggle:hover {
+  background-color: transparent;
+  color: #777777;
+  border-color: #777777;
+}
+
+.btn:hover,
+.btn:focus {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  outline: 0 !important;
+}
+
+.btn:active,
+.btn.active,
+.open>.btn.dropdown-toggle {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: 0 !important;
+}
+
+.btn-primary {
+  border-color: #3472F7;
+  color: #3472F7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.open>.btn-primary.dropdown-toggle,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle:hover {
+  background-color: transparent;
+  color: #1D62F0;
+  border-color: #1D62F0;
+}
+
+.btn-success {
+  border-color: #05AE0E;
+  color: #05AE0E;
+}
+
+.btn-success:hover,
+.btn-success:focus,
+.btn-success:active,
+.btn-success.active,
+.btn-success:active:focus,
+.btn-success:active:hover,
+.btn-success.active:focus,
+.btn-success.active:hover,
+.open>.btn-success.dropdown-toggle,
+.open>.btn-success.dropdown-toggle:focus,
+.open>.btn-success.dropdown-toggle:hover {
+  background-color: transparent;
+  color: #049F0C;
+  border-color: #049F0C;
+}
+
+.btn-danger {
+  border-color: #FF3B30;
+  color: #FF3B30;
+}
+
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active,
+.btn-danger.active,
+.btn-danger:active:focus,
+.btn-danger:active:hover,
+.btn-danger.active:focus,
+.btn-danger.active:hover,
+.open>.btn-danger.dropdown-toggle,
+.open>.btn-danger.dropdown-toggle:focus,
+.open>.btn-danger.dropdown-toggle:hover {
+  background-color: transparent;
+  color: #EE2D20;
+  border-color: #EE2D20;
+}
+
+.btn-sm {
+  font-size: 12px;
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: #9c27b0;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0a6ebd;
+  text-decoration: underline;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a {
+  color: #9c27b0;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0a6ebd;
+  text-decoration: underline;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+a:focus {
+  outline: none;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+*:focus {
+  outline: 0;
+}
+
+a {
+  color: #9c27b0;
+}
+
+a:hover,
+a:focus {
+  color: #89229b;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects;
+}
+
+a:hover {
+  color: #0a6ebd;
+  text-decoration: underline;
+}
+
+a:focus,
+button:focus {
+  outline: none;
+}
+
+* {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: #9c27b0;
+}
+
+a:focus,
+a:hover {
+  color: #89229b;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  text-decoration: none;
+}
+
+.social-links i {
+  margin-right: 5px;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: .58;
+  color: #fff;
+}
+
+.social-links .fa.fa-instagram {
+  /*color: #e4405f;*/
+  background-color: #e4405f;
+}
+
+.social-links .fa.fa-pinterest-p {
+  /*color: #bd081c;*/
+  background-color: #bd081c;
+}
+
+.social-links .fa.fa-facebook {
+  /*color: #3b5999;*/
+  background-color: #3b5999;
+}
+
+.social-links .fa.fa-linkedin {
+  /*color: #0077B5;*/
+  background-color: #0077b5;
+}
+
+.social-links i:hover {
+  opacity: 1;
+}
+
+.social-links .fa.fa-youtube-play {
+  background-color: #cd201f;
+  /*color: #cd201f;*/
+}
+
+.brand span {
+  color: #ffcc00;
+}
+
+.navbar-brand .brand,
+.brand {
+  font-family: 'Fredoka One';
+  color: #ff3333;
+  margin-right: 84px;
+}
+
+.landing-cta-group {
+  padding: 12px 0;
+}
+
+@media (max-width: 500px) {
+  .landing-threshold .landing-intro {
+    padding: 5px 0;
+  }
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin: 18px 0;
+}
+
+.landing-intro .btn {
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.landing-intro h1 {
+  color: #fff;
+}
+
+h1 .brand {
+  margin-right: 0;
+}
+
+.landing-threshold .landing-intro {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.btn-group-vertical.align-self-center {
+  background: rgba(0, 0, 0, 0.29);
+}
+
+.btn-group-vertical.align-self-center {
+  background: rgba(0, 0, 0, 0.29);
+}
+
+.landing-intro p {
+  color: #fff;
+  padding: 14px 0;
+}
+
+.landing-threshold {
+  background-image: url("clint-adair-BW0vK-FA3eg-unsplash.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.btn {
+  border-radius: 20px;
+}
+
+.landing-threshold .container-fluid {
+  min-height: 85vh;
+  background-color: rgba(0, 0, 0, 0.79);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
